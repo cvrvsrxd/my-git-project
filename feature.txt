@@ -1,1 +1,1 @@
-Изменение в conflict-branch: версия 2
+Изменение: версия 1 (main) и версия 2 (conflict-branch)
