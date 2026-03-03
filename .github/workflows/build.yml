@@ -1,0 +1,14 @@
+name: Build and Test  
+
+on: [push]  
+
+jobs:  
+  build:  
+    runs-on: ubuntu-latest  
+    steps:  
+      - name: Checkout repository  
+        uses: actions/checkout@v2  
+      - name: Build project  
+        run: echo "Building the project..."  
+      - name: Run tests  
+        run: bash test.sh
